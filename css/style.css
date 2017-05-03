@@ -1,0 +1,38 @@
+body{
+  font-family: Calibri, Arial, sans-serif;
+  width:90%;
+  max-width:1000px;
+  margin:2em auto;
+  background-color: #3f5588;
+}
+
+table{
+  table-layout:fixed;
+  width:100%;
+  border-spacing:10px;  
+  background-color: #ffc600;
+  min-width:500px;
+}
+th{
+  padding:.5em;
+}
+.month{
+  font-size:3em;
+}
+td.event{
+  background-color: lightblue;
+}
+td{
+  background-color:white;
+  padding:1em 1em 3em;
+  position:relative;
+}
+td.empty{
+  background-color: transparent;
+}
+.details{
+  position:absolute;
+  bottom:.5em;
+  right:.5em;
+  font-size:.8em;
+}
